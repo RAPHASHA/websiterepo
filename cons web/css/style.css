@@ -1,0 +1,102 @@
+header{
+    background: url(../images/hback.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+}
+
+@media screen and (max-width: 670px) {
+    header{
+        min-height: 500px;
+    }
+}
+
+.brand-logo{
+    font-family: Impact, Georgia, 'Arial Narrow Bold', sans-serif;
+}
+
+.a{
+    color: black;
+}
+
+.section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+*{box-sizing: border-box;}
+
+body{
+    font-family: verdana, sans-serif;
+}
+
+.mySlides{
+    display:none;
+}
+
+img{
+    vertical-align: middle;
+    width: 100%;
+    
+}
+
+.text{
+    color: blue;
+    font-size: 70px;
+    padding: 8px 12px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    width:100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+
+
+    
+
+
+.slideshow-container{
+    min-width: 1000px;
+    position: relative;
+    margin: auto;
+    background-position: center;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+    from{opacity: .4}
+    to{opacity: 1}
+}
+
+@keyframes fade{
+    from{opacity: .4}
+    to{opacity: 1}
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: cyan;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active{
+    background-color: darkblue;
+}
+
+@media only screen and (max-width: 300px){
+    .text{font-size: 11px}
+}
+
+
