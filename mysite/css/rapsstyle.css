@@ -1,0 +1,16 @@
+
+.brcolor-layer{
+    background-size: cover;
+    opacity: .15;
+    background-repeat: no-repeat;
+    z-index: -1;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+    box-shadow: 0 40px 60px 10px #ff0060
+}
+
+body{
+    margin: 0;
+}
