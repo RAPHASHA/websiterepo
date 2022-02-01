@@ -3,14 +3,22 @@
     background-size: cover;
     opacity: .15;
     background-repeat: no-repeat;
+    position: absolute;
     z-index: -1;
+    top: 0;
     width: 100%;
     left: 0;
     right: 0;
     bottom: 30%;
-    box-shadow: 0 40px 60px 10px #ff0060
+    box-shadow: 0 40px 60px 10px #003cff
 }
 
-body{
-    margin: 0;
+.content-wrapper{
+    position: relative;
+    z-index: 1
 }
+
+.section-container{
+    padding: 60px 0 40px;
+}
+
