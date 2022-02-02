@@ -3,11 +3,130 @@
     background-size: cover;
     opacity: .15;
     background-repeat: no-repeat;
+    position: absolute;
     z-index: -1;
+    top: 0;
     width: 100%;
     left: 0;
     right: 0;
     bottom: 30%;
-    box-shadow: 0 40px 60px 10px #ff0060
+    box-shadow: 0 40px 60px 10px #003cff
 }
 
+<<<<<<< HEAD
+=======
+.content-wrapper{
+    position: relative;
+    z-index: 1
+}
+
+.section-container{
+    padding: 60px 0 40px;
+}
+
+.educationinfor{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    
+    left: 0%;
+    
+}
+
+#cycle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    
+    transform: rotate(0deg);
+    transition: 2s;
+}
+
+
+
+.school i{
+    width: 70px;
+}
+
+.school{
+    position: absolute;
+    display: flex;
+    color: white;
+}
+
+.school div{
+    margin-left: 30px;
+}
+
+.school div p {
+    margin-top: 8px;
+}
+
+.one{
+    top: 400px;
+    right: 15px;
+}
+
+.two{
+    top: 30px;
+    left: 350px;
+    transform: rotate(-90deg);
+}
+
+.three{
+    bottom: 400px;
+    left: 15px;
+    transform: rotate(-180deg);
+}
+
+.four{
+    bottom: 30px;
+    right: 350px;
+    transform: rotate(-270deg);
+}
+
+.studying{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    
+    left: 25%;
+    transform: translateY(-250%);
+    z-index: 1;
+}
+
+.controls{
+    position: absolute;
+    right:1%;
+    top: 118%;
+    transform: translateY(-50%);
+
+}
+
+.controls{
+    margin: 15px 0;
+    color: rgb(33, 138, 236);
+
+}
+#ubtn{
+    width: 15px;
+    cursor: pointer;
+}
+
+#dbtn{
+    width: 15px;
+    cursor: pointer;
+}
+
+.overlay{
+    width: 0;
+    height: 0;
+    border-top: 500px solid #fff;
+    border-left: 500px solid #fff;
+    border-right : 500px solid #CCC;
+    border-bottom: 500px solid #fff;
+}
+>>>>>>> 57e1a541697db08e167800441f83be3ead4d6063
