@@ -13,7 +13,6 @@
     box-shadow: 0 40px 60px 10px #003cff
 }
 
-
 .content-wrapper{
     position: relative;
     z-index: 1
@@ -101,8 +100,22 @@
     position: absolute;
     right:1%;
     top: 118%;
-    transform: translateY(-50%);
+    transform: translateY(-230%);
 
+}
+
+.controls1{
+    position: absolute;
+    left: 32%;
+    transform: translateY(-730%);
+    z-index: 1;
+}
+
+.controls2{
+    position: absolute;
+    left: 32%;
+    transform: translateY(-400%);
+    z-index: 1;
 }
 
 .controls{
@@ -129,3 +142,14 @@
     border-bottom: 500px solid #fff;
 }
 
+.footer-container{
+    padding: 20px 0 30px;
+    transform: translateY(600%);
+}
+
+.contac{
+
+    transform: translateY(400%);
+    box-shadow: 0 40px 60px 10px #667cc2;
+    border-radius: 40px;
+}
