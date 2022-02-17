@@ -6159,8 +6159,8 @@ top: 8px;
 bottom:auto;
 left:0%;
 margin:0;
-height:64px;
-width:295px;
+height:100px;
+width:100px;
 display:block;
 position:absolute;
 border:0 none;
@@ -6742,7 +6742,7 @@ width:auto;
 }
  #Slide0
 {
-background:url(images/HomeDesktopSlide0.jpg);
+background:url(../imgs/back2.jpg);
 background-color:#3498DB;
 background-repeat:no-repeat;
 background-size:cover;
@@ -6751,7 +6751,17 @@ background-clip:padding-box;
 }
  #Slide1
 {
-background:url(images/HomeDesktopSlide1.jpg);
+background:url(../imgs/backg);
+background-color:#3498DB;
+background-repeat:no-repeat;
+background-size:cover;
+background-position:Center Center;
+background-clip:padding-box;
+}
+
+#Slide2
+{
+background:url(../imgs/iStock-_traditional_food_pot_south_africa_agai.width-800.jpg);
 background-color:#3498DB;
 background-repeat:no-repeat;
 background-size:cover;
@@ -11864,6 +11874,10 @@ cursor: pointer;
 box-sizing:border-box;
 padding-top:0px;
 padding-bottom:0px;
+}
+
+.section-container{
+  padding: 60px 0 40px;
 }
 }
 
