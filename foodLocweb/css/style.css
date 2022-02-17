@@ -1,7 +1,5 @@
-body{
-    background: url(../imgs/back2.jpg);
-    background-size: cover;
-}
+
+
 
 /**footer style**/
 
@@ -24,4 +22,17 @@ ul.contact li{
 .btn{
     border-radius:20px;
 }
+
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+#navig{
+    overflow: hidden;
+    background: transparent;
+}
+
+
 
